@@ -11,9 +11,9 @@ namespace EsercizioPaginaWeb.Controllers
     public class MenuController : Controller
     {
 
-        public MenuController(ILogger<MenuController> logger)
+        public MenuController()
         {
-            _logger = logger;
+        
         }
 
         public IActionResult Index()
@@ -21,7 +21,6 @@ namespace EsercizioPaginaWeb.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View("Error!");
