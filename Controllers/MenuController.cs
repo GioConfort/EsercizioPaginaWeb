@@ -18,7 +18,7 @@ namespace EsercizioPaginaWeb.Controllers
 
         public IActionResult Index()
         {
-            return Redirect("https://www.amazon.it/ref=nav_logo");
+            return View();
         }
 
         public IActionResult Error()
