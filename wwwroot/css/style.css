@@ -16,7 +16,8 @@
       "Header Header Header"
       "card-1 card-2 card-3"
       "footer footer footer";
-  } 
+  }
+
 .header { 
   grid-area: Header;
   background-color: brown;
@@ -30,6 +31,25 @@
   height: 10vw;
   padding: 2%;
   }
+
+  .home{
+    width: 75vh;
+    height: 7vh;
+    color: rgb(255, 191, 40);
+    position: relative;
+    left: 85vh;
+    bottom: 12vh;
+  }
+
+  .carrello{
+    width: 75vh;
+    height: 7vh;
+    color: rgb(255, 191, 40);
+    position: relative;
+    left: 95vh;
+    bottom: 21.2vh;
+  }
+
   .dropdown{
     position: absolute;
     top: -4.7vw; 
