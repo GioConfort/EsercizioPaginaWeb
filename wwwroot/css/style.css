@@ -37,8 +37,17 @@
     height: 7vh;
     color: rgb(255, 191, 40);
     position: relative;
-    left: 75vh;
+    left: 85vh;
     bottom: 12vh;
+  }
+
+  .carrello{
+    width: 75vh;
+    height: 7vh;
+    color: rgb(255, 191, 40);
+    position: relative;
+    left: 95vh;
+    bottom: 21.2vh;
   }
 
   .dropdown{
