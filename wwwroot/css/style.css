@@ -16,22 +16,20 @@
       "Header Header Header"
       "card-1 card-2 card-3"
       "footer footer footer";
+  } 
+.header { 
+  grid-area: Header;
+  background-color: brown;
+  color: rgb(255, 191, 40);
+  border: 2px solid rgb(255, 191, 40);
+  border-radius: 10px;
+  font-size:medium;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3vw;
+  font-style: italic;
+  height: 10vw;
+  padding: 2%;
   }
-  
-  .header { 
-    grid-area: Header;
-    background-color: brown;
-    color: rgb(255, 191, 40);
-    border: 2px solid rgb(255, 191, 40);
-    border-radius: 10px;
-    font-size:medium;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3vw;
-    font-style: italic;
-    height: 10vw;
-    padding: 2%;
-  }
-
   .dropdown{
     position: absolute;
     top: -4.7vw; 
@@ -43,7 +41,6 @@
   .dropdown-toggle::after {
     color: rgb(255, 191, 40)
 }
-
   .header-sub{
     text-align: top;
     font-size: 1.7vw;
@@ -60,7 +57,7 @@
     max-width: 100%;
     min-width: 100%;
     height: auto;
-    max-height: 33.5rem;
+    max-height: 35rem;
     min-height: auto;
     position: relative;
     top: 5%
@@ -87,7 +84,7 @@
     max-width: 100%;
     min-width: 100%;
     height: auto;
-    max-height: 33.5rem;
+    max-height: 35rem;
     min-height: auto;
     position: relative;
     top: 5%
@@ -114,7 +111,7 @@
     max-width: 100%;
     min-width: 100%;
     height: auto;
-    max-height: 33.5rem;
+    max-height: 35rem;
     min-height: auto;
     position: relative;
     top: 5%
@@ -165,9 +162,9 @@
   }
   
   .card-title{
-    font-size:2vw;
+    font-size:2rem;
   }
 
   .card-text{
-    font-size:1vw;
+    font-size:1.3rem;
   }
