@@ -168,3 +168,20 @@
   .card-text{
     font-size:1.3rem;
   }
+  .cart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon {
+    font-size: 24px; 
+    color: yellow;
+    cursor: pointer; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+  }
+  
+  .cart-icon:hover {
+    color: blue;
+  }
