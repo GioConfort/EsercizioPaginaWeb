@@ -1,0 +1,173 @@
+.body{
+    background-image: url(../assets/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    gap: 20px 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header"
+      "card-1 card-2 card-3"
+      "footer footer footer";
+  }
+  
+  .header { 
+    grid-area: Header;
+    background-color: brown;
+    color: rgb(255, 191, 40);
+    border: 2px solid rgb(255, 191, 40);
+    border-radius: 10px;
+    font-size:medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vw;
+    font-style: italic;
+    height: 10vw;
+    padding: 2%;
+  }
+
+  .dropdown{
+    position: absolute;
+    top: -4.7vw; 
+    left: 60vw;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dropdown-toggle::after {
+    color: rgb(255, 191, 40)
+}
+
+  .header-sub{
+    text-align: top;
+    font-size: 1.7vw;
+  }
+
+  .card-1 { 
+    grid-area: card-1;
+    background-color: brown;
+    color: rgb(255, 191, 40);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 6px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 33.5rem;
+    min-height: auto;
+    position: relative;
+    top: 5%
+   }
+
+   .card-1:hover {
+    box-shadow: 5px 5px 35px 5px rgb(219, 170, 54);
+   }
+
+   #hamburger{
+    border-radius: 6px;
+    width:100%;
+    max-width:100%;
+  }
+
+   .card-2 { 
+    grid-area: card-2;
+    background-color: brown;
+    color: rgb(255, 191, 40);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 6px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 33.5rem;
+    min-height: auto;
+    position: relative;
+    top: 5%
+   }
+
+   .card-2:hover {
+    box-shadow: 5px 5px 35px 5px rgb(219, 170, 54);
+   }
+
+   #location{
+    border-radius: 6px;
+    width:100%;
+    max-width:100%;
+   }
+
+  .card-3 { 
+    grid-area: card-3;
+    background-color: brown;
+    color: rgb(255, 191, 40);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 6px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 33.5rem;
+    min-height: auto;
+    position: relative;
+    top: 5%
+   }
+
+   .card-3:hover {
+    box-shadow: 5px 5px 35px 5px rgb(219, 170, 54);
+   }
+
+  .footer { 
+    grid-area: footer; 
+    background-color: brown;
+    color: rgb(255, 191, 40);
+    border: 2px solid rgb(255, 191, 40);
+    border-radius: 10px;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 45%;
+    padding: 1%;
+  }
+
+  #social{
+    border-radius: 6px;
+    width:100%;
+    max-width:100%;
+  }
+
+  #hamburger-classic{
+    border-radius: 6px;
+    width:100%;
+    max-width:100%;
+  }
+
+  #hamburger-special{
+    border-radius: 6px;
+    width:100%;
+    max-width:100%;
+  }
+
+  #vegetarian-meals{
+    border-radius: 6px;
+    width:100%;
+    max-width:100%;
+  }
+  
+  .card-title{
+    font-size:2vw;
+  }
+
+  .card-text{
+    font-size:1vw;
+  }
